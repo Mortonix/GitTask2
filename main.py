@@ -9,7 +9,7 @@ import sys
 class Test(QMainWindow):
     def __init__(self):
         super().__init__()
-        uic.loadUi('untitled.ui', self)
+        uic.loadUi('UI.ui', self)
 
         self.pushButton.setFixedSize(100, 100)
         self.pushButton.clicked.connect(self.circle)
